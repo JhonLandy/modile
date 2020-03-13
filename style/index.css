@@ -1,0 +1,413 @@
+@charset 'UTF-8';
+
+
+html{
+	font-size:10px; 
+}
+
+.container{
+	max-width:64.0rem;
+	min-width:32.0rem;
+	margin:auto;
+}
+.wrapper{
+	max-width:58.0rem;
+	margin:auto;
+}
+
+/****hed******/
+	 /****topbar****/
+	#head .container  .topbar {
+		background:#02A1FC;
+		height:7.4rem;
+	}
+	
+	#head  .container  .topbar .wrapper .location form select{
+		background-color:transparent;
+		border:none;
+		font-size:2.315rem;
+		margin-top:2.4rem;
+		padding-right:1.4rem;
+		color:#fff;
+		outline:none;
+	}
+	#head  .container  .topbar .wrapper .location img{
+		top:2.7rem;
+		right:0.1rem;
+		width:2.5rem;
+		height:2.5rem;
+		background:#02A1FC;
+	}
+	#head  .container  .topbar .wrapper .location form select option{
+		width:20.0rem;
+		height:10.0rem;
+		font-size:1.8rem;
+	}
+	#head  .container  .topbar .wrapper .search {
+		margin-left:2.0rem;
+		margin-top:1.6rem;
+	}
+	#head .container  .topbar  .wrapper .search form input{
+		width:39.4rem;
+		height:4.2rem;
+		border:1px solid #fff;
+		border-radius:0.8rem;
+		background:transparent;
+		font-size:2.3rem;
+		color:#fff;
+		text-indent:4.9rem;
+		outline:none;
+	}
+	#head  .container  .topbar .wrapper .search form a img{
+		top:1.0rem;
+		left:0.8rem;
+		width:4.0rem;
+		height:3.3rem;
+	}
+	#head .container .topbar .wrapper .saoma {
+		top:1.9rem;
+		right:0rem;
+	
+	}
+	#head .container .topbar .wrapper .saoma a img{
+		
+		width:4.2rem;
+		height:4.2rem;
+	}
+	 /****topbar****/
+
+	 /****banner****/
+
+	#head .container .banner{
+		width:100%;
+		height:20.7rem;
+	}
+	#head .container .banner ul{
+		width:200%;
+	}
+	#head .container .banner ul > li{
+		width:50%;
+	}
+	#head .container .banner ul > li img{
+		width:100%;
+		height:100%;
+	}
+	#head .container .server{
+		height:33.4rem;
+		border-bottom:3px solid #e5e5e5;
+	}
+	#head .container .server .gg{
+		width:200%;
+		height:100%;
+	}
+	#head .container .server .gg div{
+		width:50%;
+	}
+
+	#head .container .server .gg div ul li{
+		width:25%;
+		height:50%;
+		text-align:center;
+	}
+	#head .container .server .gg div ul li img{
+		display:block;
+		width:9.0rem;
+		height:9.0rem;
+		margin:auto;
+		margin-top:3.0rem;
+	}
+	#head .container .server .gg div ul li p{
+		text-align:center;
+		font-size:1.734rem;
+		padding-top:1.0rem;
+	}
+	#head .container .server .gg div ul li .hot{
+		width:11rem;
+		padding-left:2.0rem;
+		
+	}
+	.pagination{
+		position:fixed;
+		bottom:0;
+	}
+
+
+	 /****banner****/
+
+
+/****head******/
+
+/****middle******/
+/****free******/
+	/*****topbar*****/
+	#middle .container .free  .topbar .wrapper{
+		padding-top:2.3rem;s
+	}
+	#middle .container .free  .topbar  .wrapper div{
+		width:49%;
+	}
+	#middle .container .free  .topbar  .wrapper .free-word1 {
+		border-left:3px solid #0c97f8;
+		
+		
+	}
+	#middle .container .free  .topbar  .wrapper .free-word1 p{
+		padding-left:0.5rem;
+		font-size:2.036rem;
+		color:#b2b2b2;
+		font-family:'Microsoft YaHei' !important; 
+	}
+	#middle .container .free  .topbar  .wrapper .free-word1 p span{
+		font-size:1.8rem;
+		border-right:2px solid #000;
+		padding-right:0.5rem;
+	}
+	#middle .container .free  .topbar  .wrapper .free-word2 p{
+		font-size:2.036rem;
+		color:#b2b2b2;
+		font-family:'Microsoft YaHei' !important; 
+	}
+	#middle .container .free  .topbar  .wrapper .free-word2 p span{
+		color:#4792f8;
+		font-size:1.8rem;
+	}
+	/*****topbar*****/
+
+	/*****bottom*****/
+	#middle .container .free  .bottom{
+		padding-top:0.2rem;
+	}
+	#middle .container .free  .bottom > ol > li{
+		margin-top:1.7rem;
+	}
+	#middle .container .free  .bottom > ol > li.border{
+		border-bottom:1px solid #efefef;
+	}
+	#middle .container .free  .bottom ol >li .wrapper ul li{
+		width:25%;
+		text-align:center;
+		font-size:1.8rem;
+	}
+	#middle .container .free  .bottom ol li .wrapper ul li .left{
+		margin-left:0.5rem;
+	}
+	#middle .container .free  .bottom ol li .wrapper ul li .left1{
+		margin-left:0.9rem;
+	}
+	#middle .container .free  .bottom ol li .wrapper ul li .center{
+		margin:auto;
+	}
+	#middle .container .free  .bottom ol li .wrapper ul li img{
+		width:13.9rem;
+		height:11.3rem;
+		display:block;
+	}
+	#middle .container .free  .bottom ol li .wrapper ul li p{
+		font-size:1.8rem;
+		font-family:'Microsoft YaHei' !important;
+		color:#908f8e;
+	}
+	/*****bottom*****/
+/****free******/
+
+/****feature******/
+	/*****topbar*****/
+	#middle .container .feature  .topbar .wrapper{
+		padding-top:2.3rem;
+	}
+	#middle .container .feature  .topbar  .wrapper div{
+		width:49%;
+	}
+	#middle .container .feature  .topbar  .wrapper .free-word1 {
+		border-left:3px solid #0c97f8;
+
+	}
+	#middle .container .feature  .topbar  .wrapper .free-word1 p{
+		padding-left:0.5rem;
+		padding-right:0.5rem;
+		box-sizing:border-box;
+		font-size:2.036rem;
+		color:#838383;
+	}
+	#middle .container .feature  .topbar  .wrapper .free-word1 .sixteen{
+		padding-top:0.3rem;
+		font-size:1.6rem;
+	}
+	#middle .container .feature  .topbar  .wrapper .free-word2 .sixteen{
+		padding-top:0.3rem;
+		font-size:1.6rem;
+	}
+	#middle .container .feature  .topbar  .wrapper .free-word2 p{
+		font-size:2.036rem;
+		font-family:'Microsoft YaHei' !important;
+		color:#838383;
+	}
+	#middle .container .feature  .topbar  .wrapper .free-word2 p span{
+		color:#4792f8;
+	}
+	/*****topbar*****/
+
+	/*****bottom*****/
+	#middle .container .feature  .bottom{
+		padding-top:0.2rem;
+	}
+	#middle .container .feature  .bottom > ol > li{
+		margin-top:1.7rem;
+	}
+	#middle .container .feature  .bottom ol >li .wrapper ul li{
+		width:14.3rem;
+		height:13.5rem;
+		text-align:center;
+		margin-left:0.2rem;
+	}
+	#middle .container .feature  .bottom ol >li .wrapper ul li img{
+		width:13.4rem;
+		height:10.3rem;
+	}
+	
+	#middle .container .feature  .bottom ol li .wrapper ul li .center{
+		margin:auto;
+	}
+	#middle .container .feature  .bottom ol li .wrapper ul li > img{
+		display:block;
+		margin:0.4rem auto;
+	}
+	#middle .container .feature  .bottom ol li .wrapper ul li .tittle p{
+		display:inline-block;
+		vertical-align:20px;
+	}
+	#middle .container .feature  .bottom ol li .wrapper ul li .tittle .p1 {
+		font-size:1.6rem;
+		color:#fe3d74;
+		font-family:'Microsoft YaHei'!important;
+	}
+	#middle .container .feature  .bottom ol li .wrapper ul li .tittle .p2{
+		font-size:1.4rem;
+		color:#958b8d;
+		font-style:normal;
+		display:block;
+		margin-top:0.2rem;
+		font-family:'Microsoft YaHei'!important;
+	}
+	.pink{
+		background-color:#f4cad4;
+	}
+	.blue{
+		background-color:#bbdfdd;
+	}
+	.orange{
+		background-color:#f1d09b;
+	}
+/****feature******/
+
+
+/****favorite******/
+	/*****topbar*****/
+	#middle .container .favorite  .topbar .wrapper{
+		padding-top:2.3rem;
+	}
+	#middle .container .favorite  .topbar  .wrapper div{
+		width:49%;
+	}
+	#middle .container .favorite  .topbar  .wrapper .free-word1 {
+		border-left:3px solid #0c97f8;
+
+	}
+	#middle .container .favorite  .topbar  .wrapper .free-word1 p{
+		padding-left:0.5rem;
+		padding-right:0.5rem;
+		box-sizing:border-box;
+		font-size:2.036rem;
+		font-family:'Microsoft YaHei'!important;
+	}
+	#middle .container .favorite  .topbar  .wrapper .free-word1 .sixteen{
+		padding-top:0.3rem;
+		font-size:1.6rem;
+	}
+	#middle .container .favorite .topbar  .wrapper .free-word2 .sixteen{
+		padding-top:0.3rem;
+		font-size:1.6rem;
+	}
+	#middle .container .favorite  .topbar  .wrapper .free-word2 p{
+		font-size:2.036rem;
+		font-family:'Microsoft YaHei'!important;
+	}
+	#middle .container .favorite  .topbar  .wrapper .free-word2 p span{
+		color:#4792f8;
+	}
+	/*****topbar*****/
+
+	/*****bottom*****/
+	#middle .container .favorite .bottom ul > li{
+		height:17.7rem;
+		border-top:1px solid #efefef;
+	}
+	#middle .container .favorite .bottom ul li .wrapper .recommend1{
+		width:38%;
+		margin-top:2.6rem;
+	}
+	#middle .container .favorite .bottom ul li .wrapper .recommend1 img{
+		width:20.1rem;
+		height:13.4rem;
+	}
+	#middle .container .favorite .bottom ul li .wrapper .recommend2{
+		width:62%;
+		margin-top:3.7rem;
+	}
+	#middle .container .favorite .bottom ul li .wrapper div dt{
+		font-size:1.981rem;
+		font-family:'Microsoft YaHei'!important;
+	}
+	#middle .container .favorite .bottom ul li .wrapper div dd{
+		font-size:1.81rem;
+		margin-top:1.6rem;
+	}
+	.red{
+		color:#ed4242;
+	}
+	.gay{
+		color:#8b8b8b;
+	}
+	/*****bottom*****/
+
+	/*****look*****/
+		#middle .container .look{
+			text-align:center;
+			height:12.8rem;
+			border-top:1px solid #efefef;
+			margin-top:2.0rem;
+		}
+		#middle .container .look p{
+			font-size:1.8rem;
+			margin-top:1.0rem;
+		}
+	/*****look*****/
+
+/****favorite******/
+
+/****middle******/
+
+/****footer******/
+	#footer{
+		background:#02A1FC;
+		width:100%;
+		height:8.2rem;
+		position:fixed;
+		bottom:0;
+		z-index:99;
+	}
+	#footer .container ul li{
+		width:25%;
+		text-align:center;
+	}
+	#footer .container ul li img{
+		width:4.1rem;
+		height:4.1rem;
+		padding-top:1.1rem;
+	}
+	#footer .container ul li p{
+		color:#fff;
+		font-size:2.039rem;
+	}
+	
+/****footer******/
